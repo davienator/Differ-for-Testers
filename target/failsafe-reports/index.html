@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Surefire_suite">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Surefire_suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Surefire_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Surefire_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Surefire_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Surefire_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Surefire_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Surefire_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 6 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded">givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue">givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength">givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenIAddItToAInvalidSide_ThenTheStatusCodeIsNotImplemented">givenAEncoded64ValueInJonBody_WhenIAddItToAInvalidSide_ThenTheStatusCodeIsNotImplemented</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenIAddItToLeftSide_ThenAddedValueReturnsInLeftSide">givenAEncoded64ValueInJonBody_WhenIAddItToLeftSide_ThenAddedValueReturnsInLeftSide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenIAddItToRightSide_ThenAddedValueReturnsInRightSide">givenAEncoded64ValueInJonBody_WhenIAddItToRightSide_ThenAddedValueReturnsInRightSide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongLimit_ThenTheStatusCodeIsNotFound">givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongLimit_ThenTheStatusCodeIsNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongNegativeLimit_ThenTheStatusCodeIsNotFound">givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongNegativeLimit_ThenTheStatusCodeIsNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAValueThatIsNotInStringFormat_ThenTheStatusCodeIsUnsupportedMediaType">givenAEncoded64ValueInJonBody_WhenICallItUsingAValueThatIsNotInStringFormat_ThenTheStatusCodeIsUnsupportedMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAnEmptyStringInJsonBody_ThenTheEmptyStringIsAdded">givenAEncoded64ValueInJonBody_WhenICallItUsingAnEmptyStringInJsonBody_ThenTheEmptyStringIsAdded</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsLessThan4CharsInJsonBody_ThenTheStatusCodeIsUnsupportedMediaType">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsLessThan4CharsInJsonBody_ThenTheStatusCodeIsUnsupportedMediaType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingCharAsId_ThenTheStatusCodeIsNotFound">givenAEncoded64ValueInJonBody_WhenICallItUsingCharAsId_ThenTheStatusCodeIsNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingDoubleAsId_ThenTheStatusCodeIsNotFound">givenAEncoded64ValueInJonBody_WhenICallItUsingDoubleAsId_ThenTheStatusCodeIsNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingNegativeNumberAsId_ThenAddedValueReturnsInLeftSide">givenAEncoded64ValueInJonBody_WhenICallItUsingNegativeNumberAsId_ThenAddedValueReturnsInLeftSide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItUsingUsingAUppercaseLetter_ThenTheStatusCodeIsNotImplemented">givenAEncoded64ValueInJonBody_WhenICallItUsingUsingAUppercaseLetter_ThenTheStatusCodeIsNotImplemented</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItWithoutAId_ThenTheStatusCodeIsNotFound">givenAEncoded64ValueInJonBody_WhenICallItWithoutAId_ThenTheStatusCodeIsNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.AddSideValueIT" hash-for-method="givenAEncoded64ValueInJonBody_WhenICallItWithoutASide_ThenTheStatusCodeIsMethodNotAllowed">givenAEncoded64ValueInJonBody_WhenICallItWithoutASide_ThenTheStatusCodeIsMethodNotAllowed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenBothSideHaveDiffLengthValues_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength">givenBothSideHaveDiffLengthValues_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenBothSideHaveSameLengthAndDiffChars_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed">givenBothSideHaveSameLengthAndDiffChars_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenBothSidesHaveEmprtyStrings_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual">givenBothSidesHaveEmprtyStrings_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenBothSidesHaveSameCharsButInDiffOrder_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed">givenBothSidesHaveSameCharsButInDiffOrder_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenBothsideHavesameData_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual">givenBothsideHavesameData_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenFirstAndLastCharsAreDiff_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentCharsAndDetailMessageIsDisplayed">givenFirstAndLastCharsAreDiff_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentCharsAndDetailMessageIsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenLeftSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndLeftSideContainsNoValue">givenLeftSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndLeftSideContainsNoValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenLeftSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength">givenLeftSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenTheEndpointAcceptsLongAsID_WhenValidateDiffIsCalledWithACharAsId_ThenTheStatusCodeIs404">givenTheEndpointAcceptsLongAsID_WhenValidateDiffIsCalledWithACharAsId_ThenTheStatusCodeIs404</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="org.waes.it.ValidateDiffIT" hash-for-method="givenTheValueAreInANegId_WhenValidateDiffIsCalledWithTheNegId_ThenTheStatusCodeIs200AndTypeEqual">givenTheValueAreInANegId_WhenValidateDiffIsCalledWithTheNegId_ThenTheStatusCodeIs200AndTypeEqual</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.waes.it.AddSideValueIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;500&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded(AddSideValueIT.java:416)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(AddSideValue - Using a string in json format)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;415&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded(AddSideValueIT.java:368)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(AddSideValue - Using a plus in the json body value.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;415&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded(AddSideValueIT.java:344)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(AddSideValue using a slash in the json body value.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;415&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded(AddSideValueIT.java:320)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(AddSideValue - Using a padded value in the json body.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">org.waes.it.ValidateDiffIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue">
+                  </a> <!-- givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue -->
+                  <span class="method-name">givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;204&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at org.waes.it.ValidateDiffIT.givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue(ValidateDiffIT.java:69)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(ValidateDiff - When the right side don't have data.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength">
+                  </a> <!-- givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength -->
+                  <span class="method-name">givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path right doesn&apos;t match.
+Expected: W43s
+  Actual: 
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+	at io.restassured.specification.ResponseSpecification$content$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+	at org.waes.it.ValidateDiffIT.givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength(ValidateDiffIT.java:339)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(ValidateDiff - When right side has a empty string and right side has a string.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.waes.it.AddSideValueIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenIAddItToAInvalidSide_ThenTheStatusCodeIsNotImplemented">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenIAddItToAInvalidSide_ThenTheStatusCodeIsNotImplemented -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenIAddItToAInvalidSide_ThenTheStatusCodeIsNotImplemented</span>
+                  <em>
+(AddSideValue - Adding a base64 encoded value to an invalid side.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenIAddItToLeftSide_ThenAddedValueReturnsInLeftSide">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenIAddItToLeftSide_ThenAddedValueReturnsInLeftSide -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenIAddItToLeftSide_ThenAddedValueReturnsInLeftSide</span>
+                  <em>
+(AddSideValue - Adding a base64 encoded value to left side.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenIAddItToRightSide_ThenAddedValueReturnsInRightSide">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenIAddItToRightSide_ThenAddedValueReturnsInRightSide -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenIAddItToRightSide_ThenAddedValueReturnsInRightSide</span>
+                  <em>
+(AddSideValue - Adding a base64 encoded value to right side.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongLimit_ThenTheStatusCodeIsNotFound">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongLimit_ThenTheStatusCodeIsNotFound -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongLimit_ThenTheStatusCodeIsNotFound</span>
+                  <em>
+(AddSideValueIT - Using a ID that exceeds long maximum limit.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongNegativeLimit_ThenTheStatusCodeIsNotFound">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongNegativeLimit_ThenTheStatusCodeIsNotFound -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongNegativeLimit_ThenTheStatusCodeIsNotFound</span>
+                  <em>
+(AddSideValueIT - Using a ID that exceeds long maximum limit.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAValueThatIsNotInStringFormat_ThenTheStatusCodeIsUnsupportedMediaType">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAValueThatIsNotInStringFormat_ThenTheStatusCodeIsUnsupportedMediaType -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAValueThatIsNotInStringFormat_ThenTheStatusCodeIsUnsupportedMediaType</span>
+                  <em>
+(AddSideValue - Using a value that is not in string format)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnEmptyStringInJsonBody_ThenTheEmptyStringIsAdded">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAnEmptyStringInJsonBody_ThenTheEmptyStringIsAdded -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnEmptyStringInJsonBody_ThenTheEmptyStringIsAdded</span>
+                  <em>
+(AddSideValue - Using an empty string in the json body)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsLessThan4CharsInJsonBody_ThenTheStatusCodeIsUnsupportedMediaType">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsLessThan4CharsInJsonBody_ThenTheStatusCodeIsUnsupportedMediaType -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsLessThan4CharsInJsonBody_ThenTheStatusCodeIsUnsupportedMediaType</span>
+                  <em>
+(AddSideValue - Using a string that contains less than 4 chars)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingCharAsId_ThenTheStatusCodeIsNotFound">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingCharAsId_ThenTheStatusCodeIsNotFound -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingCharAsId_ThenTheStatusCodeIsNotFound</span>
+                  <em>
+(AddSideValue - Using a CHAR as ID.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingDoubleAsId_ThenTheStatusCodeIsNotFound">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingDoubleAsId_ThenTheStatusCodeIsNotFound -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingDoubleAsId_ThenTheStatusCodeIsNotFound</span>
+                  <em>
+(AddSideValue - Using a DOUBLE as ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingNegativeNumberAsId_ThenAddedValueReturnsInLeftSide">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingNegativeNumberAsId_ThenAddedValueReturnsInLeftSide -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingNegativeNumberAsId_ThenAddedValueReturnsInLeftSide</span>
+                  <em>
+(AddSideValue - Using a negative number as ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItUsingUsingAUppercaseLetter_ThenTheStatusCodeIsNotImplemented">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItUsingUsingAUppercaseLetter_ThenTheStatusCodeIsNotImplemented -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingUsingAUppercaseLetter_ThenTheStatusCodeIsNotImplemented</span>
+                  <em>
+(AddSideValue - Checking if side is Case Sensitive.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItWithoutAId_ThenTheStatusCodeIsNotFound">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItWithoutAId_ThenTheStatusCodeIsNotFound -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItWithoutAId_ThenTheStatusCodeIsNotFound</span>
+                  <em>
+(Calling AddSideValueIT without ID in the endpoint)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenAEncoded64ValueInJonBody_WhenICallItWithoutASide_ThenTheStatusCodeIsMethodNotAllowed">
+                  </a> <!-- givenAEncoded64ValueInJonBody_WhenICallItWithoutASide_ThenTheStatusCodeIsMethodNotAllowed -->
+                  <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItWithoutASide_ThenTheStatusCodeIsMethodNotAllowed</span>
+                  <em>
+(Calling AddSideValue without a side in the endpoint.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.waes.it.ValidateDiffIT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenBothSideHaveDiffLengthValues_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength">
+                  </a> <!-- givenBothSideHaveDiffLengthValues_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength -->
+                  <span class="method-name">givenBothSideHaveDiffLengthValues_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</span>
+                  <em>
+(ValidateDiff -  When the sides have different length values.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenBothSideHaveSameLengthAndDiffChars_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed">
+                  </a> <!-- givenBothSideHaveSameLengthAndDiffChars_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed -->
+                  <span class="method-name">givenBothSideHaveSameLengthAndDiffChars_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed</span>
+                  <em>
+(ValidateDiff - Both sides with same length but the chars are different.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenBothSidesHaveEmprtyStrings_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual">
+                  </a> <!-- givenBothSidesHaveEmprtyStrings_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual -->
+                  <span class="method-name">givenBothSidesHaveEmprtyStrings_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual</span>
+                  <em>
+(ValidateDiff - Both sides with empty strings.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenBothSidesHaveSameCharsButInDiffOrder_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed">
+                  </a> <!-- givenBothSidesHaveSameCharsButInDiffOrder_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed -->
+                  <span class="method-name">givenBothSidesHaveSameCharsButInDiffOrder_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed</span>
+                  <em>
+(ValidateDiff - Sides using same chars but they are are in a different order.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenBothsideHavesameData_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual">
+                  </a> <!-- givenBothsideHavesameData_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual -->
+                  <span class="method-name">givenBothsideHavesameData_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual</span>
+                  <em>
+(ValidateDiff - When both sides have same data.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenFirstAndLastCharsAreDiff_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentCharsAndDetailMessageIsDisplayed">
+                  </a> <!-- givenFirstAndLastCharsAreDiff_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentCharsAndDetailMessageIsDisplayed -->
+                  <span class="method-name">givenFirstAndLastCharsAreDiff_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentCharsAndDetailMessageIsDisplayed</span>
+                  <em>
+(ValidateDiff - First and Last char are different.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenLeftSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndLeftSideContainsNoValue">
+                  </a> <!-- givenLeftSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndLeftSideContainsNoValue -->
+                  <span class="method-name">givenLeftSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndLeftSideContainsNoValue</span>
+                  <em>
+(ValidateDiff - When the left side don't have data.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenLeftSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength">
+                  </a> <!-- givenLeftSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength -->
+                  <span class="method-name">givenLeftSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</span>
+                  <em>
+(ValidateDiff - When left side has a empty string and right side has a string.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenTheEndpointAcceptsLongAsID_WhenValidateDiffIsCalledWithACharAsId_ThenTheStatusCodeIs404">
+                  </a> <!-- givenTheEndpointAcceptsLongAsID_WhenValidateDiffIsCalledWithACharAsId_ThenTheStatusCodeIs404 -->
+                  <span class="method-name">givenTheEndpointAcceptsLongAsID_WhenValidateDiffIsCalledWithACharAsId_ThenTheStatusCodeIs404</span>
+                  <em>
+(Calling ValidateDiffIT using a CHAR as id)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="givenTheValueAreInANegId_WhenValidateDiffIsCalledWithTheNegId_ThenTheStatusCodeIs200AndTypeEqual">
+                  </a> <!-- givenTheValueAreInANegId_WhenValidateDiffIsCalledWithTheNegId_ThenTheStatusCodeIs200AndTypeEqual -->
+                  <span class="method-name">givenTheValueAreInANegId_WhenValidateDiffIsCalledWithTheNegId_ThenTheStatusCodeIs200AndTypeEqual</span>
+                  <em>
+(ValidateDiff - Sides with equal data but in a negative ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot;&gt;
+  &lt;test name=&quot;Surefire test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.waes.it.AddSideValueIT&quot;/&gt;
+      &lt;class name=&quot;org.waes.it.ValidateDiffIT&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'givenAEncoded64ValueInJonBody_WhenIAddItToAInvalidSide_ThenTheStatusCodeIsNotImplemented')
+data.setCell(0, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(0, 3, 2464);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'givenBothSidesHaveEmprtyStrings_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual')
+data.setCell(1, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(1, 3, 130);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'givenBothSideHaveSameLengthAndDiffChars_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed')
+data.setCell(2, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(2, 3, 129);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongLimit_ThenTheStatusCodeIsNotFound')
+data.setCell(3, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(3, 3, 101);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'givenBothSideHaveDiffLengthValues_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength')
+data.setCell(4, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(4, 3, 98);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'givenBothsideHavesameData_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual')
+data.setCell(5, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(5, 3, 93);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'givenTheValueAreInANegId_WhenValidateDiffIsCalledWithTheNegId_ThenTheStatusCodeIs200AndTypeEqual')
+data.setCell(6, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(6, 3, 93);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'givenFirstAndLastCharsAreDiff_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentCharsAndDetailMessageIsDisplayed')
+data.setCell(7, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(7, 3, 91);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'givenBothSidesHaveSameCharsButInDiffOrder_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed')
+data.setCell(8, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(8, 3, 88);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingUsingAUppercaseLetter_ThenTheStatusCodeIsNotImplemented')
+data.setCell(9, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(9, 3, 74);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'givenLeftSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndLeftSideContainsNoValue')
+data.setCell(10, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(10, 3, 73);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'givenLeftSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength')
+data.setCell(11, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(11, 3, 70);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsLessThan4CharsInJsonBody_ThenTheStatusCodeIsUnsupportedMediaType')
+data.setCell(12, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(12, 3, 69);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue')
+data.setCell(13, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(13, 3, 67);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength')
+data.setCell(14, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(14, 3, 57);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAValueThatIsNotInStringFormat_ThenTheStatusCodeIsUnsupportedMediaType')
+data.setCell(15, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(15, 3, 55);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded')
+data.setCell(16, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(16, 3, 54);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'givenAEncoded64ValueInJonBody_WhenIAddItToLeftSide_ThenAddedValueReturnsInLeftSide')
+data.setCell(17, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(17, 3, 53);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAnEmptyStringInJsonBody_ThenTheEmptyStringIsAdded')
+data.setCell(18, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(18, 3, 53);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'givenAEncoded64ValueInJonBody_WhenIAddItToRightSide_ThenAddedValueReturnsInRightSide')
+data.setCell(19, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(19, 3, 43);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingNegativeNumberAsId_ThenAddedValueReturnsInLeftSide')
+data.setCell(20, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(20, 3, 36);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongNegativeLimit_ThenTheStatusCodeIsNotFound')
+data.setCell(21, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(21, 3, 30);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingDoubleAsId_ThenTheStatusCodeIsNotFound')
+data.setCell(22, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(22, 3, 28);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded')
+data.setCell(23, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(23, 3, 26);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingCharAsId_ThenTheStatusCodeIsNotFound')
+data.setCell(24, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(24, 3, 25);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'givenAEncoded64ValueInJonBody_WhenICallItWithoutAId_ThenTheStatusCodeIsNotFound')
+data.setCell(25, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(25, 3, 24);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded')
+data.setCell(26, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(26, 3, 24);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded')
+data.setCell(27, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(27, 3, 24);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'givenAEncoded64ValueInJonBody_WhenICallItWithoutASide_ThenTheStatusCodeIsMethodNotAllowed')
+data.setCell(28, 2, 'org.waes.it.AddSideValueIT')
+data.setCell(28, 3, 23);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'givenTheEndpointAcceptsLongAsID_WhenValidateDiffIsCalledWithACharAsId_ThenTheStatusCodeIs404')
+data.setCell(29, 2, 'org.waes.it.ValidateDiffIT')
+data.setCell(29, 3, 19);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.waes.it.AddSideValueIT</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenIAddItToAInvalidSide_ThenTheStatusCodeIsNotImplemented</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenIAddItToLeftSide_ThenAddedValueReturnsInLeftSide</span>
+                <span class="method-start">2465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenIAddItToRightSide_ThenAddedValueReturnsInRightSide</span>
+                <span class="method-start">2519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongLimit_ThenTheStatusCodeIsNotFound</span>
+                <span class="method-start">2562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAIdThatExceedsLongNegativeLimit_ThenTheStatusCodeIsNotFound</span>
+                <span class="method-start">2663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAValueThatIsNotInStringFormat_ThenTheStatusCodeIsUnsupportedMediaType</span>
+                <span class="method-start">2694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnEmptyStringInJsonBody_ThenTheEmptyStringIsAdded</span>
+                <span class="method-start">2749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded</span>
+                <span class="method-start">2802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsLessThan4CharsInJsonBody_ThenTheStatusCodeIsUnsupportedMediaType</span>
+                <span class="method-start">2867 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded</span>
+                <span class="method-start">2936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded</span>
+                <span class="method-start">2960 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingCharAsId_ThenTheStatusCodeIsNotFound</span>
+                <span class="method-start">2986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingDoubleAsId_ThenTheStatusCodeIsNotFound</span>
+                <span class="method-start">3012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingNegativeNumberAsId_ThenAddedValueReturnsInLeftSide</span>
+                <span class="method-start">3040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded</span>
+                <span class="method-start">3076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItUsingUsingAUppercaseLetter_ThenTheStatusCodeIsNotImplemented</span>
+                <span class="method-start">3101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItWithoutAId_ThenTheStatusCodeIsNotFound</span>
+                <span class="method-start">3175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenAEncoded64ValueInJonBody_WhenICallItWithoutASide_ThenTheStatusCodeIsMethodNotAllowed</span>
+                <span class="method-start">3199 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.waes.it.ValidateDiffIT</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">givenBothSideHaveDiffLengthValues_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</span>
+                <span class="method-start">3225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenBothSideHaveSameLengthAndDiffChars_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed</span>
+                <span class="method-start">3324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenBothSidesHaveEmprtyStrings_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual</span>
+                <span class="method-start">3454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenBothSidesHaveSameCharsButInDiffOrder_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentLengthAndDetailMessageIsDisplayed</span>
+                <span class="method-start">3584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenBothsideHavesameData_WhenValidateDiffIsCalled_ThenTheStatusCodeIs200AndTypeIsEqual</span>
+                <span class="method-start">3673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenFirstAndLastCharsAreDiff_WhenValidateDiffIsCalled_ThenTheTypeIsDifferentCharsAndDetailMessageIsDisplayed</span>
+                <span class="method-start">3766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenLeftSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndLeftSideContainsNoValue</span>
+                <span class="method-start">3857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenLeftSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</span>
+                <span class="method-start">3930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue</span>
+                <span class="method-start">4001 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength</span>
+                <span class="method-start">4069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenTheEndpointAcceptsLongAsID_WhenValidateDiffIsCalledWithACharAsId_ThenTheStatusCodeIs404</span>
+                <span class="method-start">4127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">givenTheValueAreInANegId_WhenValidateDiffIsCalledWithTheNegId_ThenTheStatusCodeIs200AndTypeEqual</span>
+                <span class="method-start">4146 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

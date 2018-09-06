@@ -1,0 +1,13 @@
+Unit Tests Coverage is poor:
+	Class: 35%
+	Method: 41%
+	Line: 51%
+Exceptions and resources has 0% of coverage.
+@FixMethodOrder(MethodSorters.NAME_ASCENDING) this is not a good practice(Dependencies)
+Too much repeated code instead of using @Before.
+			SidesService tester = new SidesService is called several times.
+test4IsNotBase64String is doing too much asserts. Each assert is one test case
+Use of assertEquals instead assertTrue or assertFalse
+Multiple assertEquals to verify same object. Use assertThat
+No tests for "Right side contains no value." on validateDiff method
+No tests for getAllSides method

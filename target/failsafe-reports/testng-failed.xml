@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="org.waes.it.AddSideValueIT">
+        <methods>
+          <include name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded"/>
+          <include name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded"/>
+          <include name="givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded"/>
+          <include name="givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded"/>
+        </methods>
+      </class> <!-- org.waes.it.AddSideValueIT -->
+      <class name="org.waes.it.ValidateDiffIT">
+        <methods>
+          <include name="givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength"/>
+          <include name="givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue"/>
+        </methods>
+      </class> <!-- org.waes.it.ValidateDiffIT -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

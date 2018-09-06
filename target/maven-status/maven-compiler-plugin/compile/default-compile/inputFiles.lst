@@ -1,0 +1,16 @@
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\model\ErrorMessage.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\mappers\DataNotBase64ExceptionMapper.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\resources\DiffResource.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\database\DatabaseMock.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\mappers\IdNotFoundExceptionMapper.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\service\DifferService.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\IdNotFoundException.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\model\Comparison.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\mappers\JsonParsingExceptionMapper.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\DataNotBase64Exception.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\SideNameNotSupportedException.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\service\SidesService.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\resources\DiffResourceRestStartup.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\mappers\NoSuchElementExceptionMapper.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\exceptions\mappers\SideNameNotSupportedExceptionMapper.java
+C:\Users\carvald\Desktop\WAES Challenge\differ-for-testers\src\main\java\org\waes\differ\model\Sides.java

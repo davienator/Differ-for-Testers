@@ -1,0 +1,17 @@
+org\waes\differ\exceptions\mappers\DataNotBase64ExceptionMapper.class
+org\waes\differ\model\Comparison$Type.class
+org\waes\differ\exceptions\mappers\SideNameNotSupportedExceptionMapper.class
+org\waes\differ\exceptions\mappers\JsonParsingExceptionMapper.class
+org\waes\differ\exceptions\DataNotBase64Exception.class
+org\waes\differ\service\SidesService.class
+org\waes\differ\exceptions\SideNameNotSupportedException.class
+org\waes\differ\service\DifferService.class
+org\waes\differ\model\Comparison.class
+org\waes\differ\resources\DiffResourceRestStartup.class
+org\waes\differ\exceptions\mappers\NoSuchElementExceptionMapper.class
+org\waes\differ\model\ErrorMessage.class
+org\waes\differ\exceptions\mappers\IdNotFoundExceptionMapper.class
+org\waes\differ\database\DatabaseMock.class
+org\waes\differ\resources\DiffResource.class
+org\waes\differ\model\Sides.class
+org\waes\differ\exceptions\IdNotFoundException.class

@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 5.745 s <<< FAILURE! - in TestSuite
+givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded(org.waes.it.AddSideValueIT)  Time elapsed: 0.066 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueThatIsInJsonBodyFormatInJsonBody_ThenTheValueIsAdded(AddSideValueIT.java:416)
+
+givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded(org.waes.it.AddSideValueIT)  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <415>.
+
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithPlusInJsonBody_ThenTheValueWithPlusIsAdded(AddSideValueIT.java:368)
+
+givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded(org.waes.it.AddSideValueIT)  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <415>.
+
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingAnValueWithSlashInJsonBody_ThenTheValueWithSlashIsAdded(AddSideValueIT.java:344)
+
+givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded(org.waes.it.AddSideValueIT)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <415>.
+
+	at org.waes.it.AddSideValueIT.givenAEncoded64ValueInJonBody_WhenICallItUsingPaddingInJsonBodyValue_ThenThePaddedValueIsAdded(AddSideValueIT.java:320)
+
+givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue(org.waes.it.ValidateDiffIT)  Time elapsed: 0.068 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <204>.
+
+	at org.waes.it.ValidateDiffIT.givenRightSideDontHaveData_WhenValidateDiffIsCalled_ThenTypeIsDifferentLengthAndRightSideContainsNoValue(ValidateDiffIT.java:69)
+
+givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength(org.waes.it.ValidateDiffIT)  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path right doesn't match.
+Expected: W43s
+  Actual: 
+
+	at org.waes.it.ValidateDiffIT.givenRightSideHasAEmptyString_WhenValidateDiffIsCalled_ThenStatusCodeIs200AndTypeIsDifferentLength(ValidateDiffIT.java:339)
+
