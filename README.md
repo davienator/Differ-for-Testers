@@ -12,7 +12,7 @@ From the project root folder:
 
 ## Running integration tests (Application must be up and running).
 ##This will run all classes that ends with *IT
-From the project root folder:
+##From the project root folder:
 1. run `mvn integration-test`
 
 ##Checking the integration test reports
