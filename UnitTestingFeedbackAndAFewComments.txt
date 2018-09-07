@@ -23,6 +23,6 @@ AddSideValue is not accepting padding. E.g: "W43=")
 
 #################Things that I would like to implement but i could not.######################
 Passing the Host as a mvn property.  Eg. -Dhost=http://localhost:8081  (To avoid hardcoded hosts)
-Passing a XML as mvn property. Eg. -DTestXML=regression.xml (To run any testng xml
+Passing a XML as mvn property. Eg. -DTestXML=regression.xml (To run any testng xml)
 
 
