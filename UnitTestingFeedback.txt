@@ -11,3 +11,18 @@ Use of assertEquals instead assertTrue or assertFalse
 Multiple assertEquals to verify same object. Use assertThat
 No tests for "Right side contains no value." on validateDiff method
 No tests for getAllSides method
+
+
+#################Things I would check before start automating, if I had contact with the developers######################
+AddSideValue is adding a String that is not exactly  in json format. (this implementantion does not smells good).
+	E.g: {"Left: "W43S"}
+AddSideValue accepting empty strings
+Negative Id are accepted
+Characters like "+ and \" are not accepted. (Ok It may work on that way)
+AddSideValue is not accepting padding. E.g: "W43=")
+
+#################Things that I would like to implement but i could not.######################
+Passing the Host as a mvn property.  Eg. -Dhost=http://localhost:8081  (To avoid hardcoded hosts)
+Passing a XML as mvn property. Eg. -DTestXML=regression.xml (To run any testng xml
+
+
